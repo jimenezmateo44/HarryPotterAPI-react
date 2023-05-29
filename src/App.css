@@ -32,7 +32,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid yellow;
+  color: yellow;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.btn:hover {
+  background-color: yellow;
+  border: 1px solid black;
+  color: black;
+  transition: 1s ease;
 }
